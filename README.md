@@ -4,7 +4,10 @@ Just download and run!
 
 No additional steps required
 
-Currently works for Google Chrome and Microsoft Edge
+Currently works for: 
+* Google Chrome and 
+* Microsoft Edge
+* Mozilla Firefox
 
 Note 1: Change the search filter in the URL everytime 
 
