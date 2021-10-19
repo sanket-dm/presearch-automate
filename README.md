@@ -1,15 +1,16 @@
 # A script for automating presearch seaches to get PRE tokens
 
-Just download and run!
+No additional steps required, just download and run using a Python Interpreter!
 
-No additional steps required
+Now including usage of random words from internet in search string, so no need for manual fiddling around!
 
-Currently works for: 
+## Note:
+Please install the package ```random_word``` using the command ```pip install random_word``` before use.
+
+## Currently works for: 
 * Google Chrome and 
 * Microsoft Edge
 * Mozilla Firefox
 
-Note 1: Change the search filter in the URL everytime 
-
-Note 2: All risk is yours and any damages regarding account ban will be your responsibility
-      
+## Disclaimer: 
+> All risk is yours and any damages regarding account ban will be your responsibility.
