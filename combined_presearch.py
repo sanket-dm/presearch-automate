@@ -1,8 +1,11 @@
 import time
 import random
 from random_word import RandomWords
-r = RandomWords()
-rWords = r.get_random_words()	
+x = RandomWords()
+rWords1 = x.get_random_words()
+time.sleep(1)
+rWords2 = x.get_random_words()	
+rWords = rWords1 + rWords2
 
 for i in range(1,36):
 	import webbrowser
