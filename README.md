@@ -4,11 +4,13 @@ No additional steps required, just download and run using a Python Interpreter!
 
 Now including usage of random words from internet in search string, so no need for manual fiddling around!
 
+Currently it picks randomly from a list of 100 words. If you want more, you can extend it.
+
 ## Note:
 Please install the package ```random_word``` using the command ```pip install random_word``` before use.
 
 ## Currently works for: 
-* Google Chrome and 
+* Google Chrome
 * Microsoft Edge
 * Mozilla Firefox
 
