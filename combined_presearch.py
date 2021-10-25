@@ -1,15 +1,22 @@
+print("Please wait: loading the necessary things...")
+
 import time
 import random
 from random_word import RandomWords
 x = RandomWords()
-rWords1 = x.get_random_words()
+randomWords1 = x.get_random_words()
 time.sleep(1)
-rWords2 = x.get_random_words()	
-rWords = rWords1 + rWords2
+randomWords2 = x.get_random_words()	
+combinedWords = randomWords1 + randomWords2
+
+resultantList = []
+for i in combinedWords:
+    if i not in resultantList:
+        resultantList.append(i)
 
 for i in range(1,36):
 	import webbrowser
-	url = f'https://engine.presearch.org/search?q={random.choice(rWords)}+{random.choice(rWords)}'
+	url = f'https://engine.presearch.org/search?q={random.choice(resultantList)}+{random.choice(resultantList)}'
 	
 	webbrowser.register('edge',
 		None,
@@ -26,7 +33,8 @@ for i in range(1,36):
 		webbrowser.BackgroundBrowser("C://Program Files//Mozilla Firefox//firefox.exe"))
 	webbrowser.get('firefox').open(url)
 
-	time.sleep(22)
+	sleepTime = random.randint(10,30)
+	time.sleep(sleepTime)
 	print ('iteration: ',i)     
 	
 	if i%5 == 0:
