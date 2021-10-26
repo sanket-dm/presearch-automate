@@ -3,6 +3,7 @@ print("Please wait: loading the necessary things...")
 import time
 import random
 from random_word import RandomWords
+
 x = RandomWords()
 randomWords1 = x.get_random_words()
 time.sleep(1)
@@ -17,7 +18,8 @@ for i in combinedWords:
 for i in range(1,36):
 	import webbrowser
 	url = f'https://engine.presearch.org/search?q={random.choice(resultantList)}+{random.choice(resultantList)}'
-	
+	print ('iteration: ',i) 
+
 	webbrowser.register('edge',
 		None,
 		webbrowser.BackgroundBrowser("C://Program Files (x86)//Microsoft//Edge//Application//msedge.exe"))
@@ -34,8 +36,7 @@ for i in range(1,36):
 	webbrowser.get('firefox').open(url)
 
 	sleepTime = random.randint(10,30)
-	time.sleep(sleepTime)
-	print ('iteration: ',i)     
+	time.sleep(sleepTime)    
 	
 	if i%5 == 0:
 		import os
