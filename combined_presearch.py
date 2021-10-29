@@ -44,4 +44,5 @@ for i in range(1,36):
 			os.system("TASKKILL /F /IM msedge.exe")
 			os.system("TASKKILL /F /IM chrome.exe")
 			os.system("TASKKILL /F /IM firefox.exe")
+			time.sleep(2)
 			break 
