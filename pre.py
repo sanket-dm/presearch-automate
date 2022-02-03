@@ -29,19 +29,19 @@ for i in range(1,36):
 		None,
 		webbrowser.BackgroundBrowser("C://Program Files (x86)//Microsoft//Edge//Application//msedge.exe"))
 	webbrowser.get('edge').open(url1)
-	time.sleep(random.uniform(0.5, 1.2))
+	time.sleep(random.uniform(1, 1.7))
 
 	webbrowser.register('chrome',
 		None,
 		webbrowser.BackgroundBrowser("C://Program Files//Google//Chrome//Application//chrome.exe"))
 	webbrowser.get('chrome').open(url2)
-	time.sleep(random.uniform(0.6, 1.2))
+	time.sleep(random.uniform(1, 1.7))
 	
 	webbrowser.register('firefox',
 		None,
 		webbrowser.BackgroundBrowser("C://Program Files//Mozilla Firefox//firefox.exe"))
 	webbrowser.get('firefox').open(url3)
-	time.sleep(random.uniform(0.6, 1.2))
+	time.sleep(random.uniform(1, 1.7))
 
 	time.sleep(random.randint(15,30))    
 	
@@ -80,19 +80,19 @@ for i in range(1,36):
 		None,
 		webbrowser.BackgroundBrowser("C://Program Files//BraveSoftware//Brave-Browser//Application//brave.exe"))
 	webbrowser.get('brave').open(url4)
-	time.sleep(random.uniform(0.6, 1.2))
+	time.sleep(random.uniform(1, 1.7))
 
 	webbrowser.register('opera',
 		None,
 		webbrowser.BackgroundBrowser("C://Users//sanke//AppData//Local//Programs//Opera//opera.exe"))
 	webbrowser.get('opera').open(url5)
-	time.sleep(random.uniform(0.6, 1.2))
+	time.sleep(random.uniform(1, 1.7))
 
 	webbrowser.register('vivaldi',
 		None,
 		webbrowser.BackgroundBrowser("C://Users//sanke//AppData//Local//Vivaldi//Application//vivaldi.exe"))
 	webbrowser.get('vivaldi').open(url6)
-	time.sleep(random.uniform(0.6, 1.2))
+	time.sleep(random.uniform(1, 1.7))
 
 	time.sleep(random.randint(15,30))    
 	
