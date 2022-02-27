@@ -9,15 +9,16 @@ This script is also able to search different queries in the different browsers, 
 Currently it picks randomly from a list of 100 words for a set of 3 browsers. If you want more, you can extend it.
 
 ## Note:
-Please install the package ```random_word``` using the command ```pip install random_word``` before use.
+Please install the package ```random_word``` using the command ```pip install random_word``` and ```pip install PyYAML``` before use.
 
 ## Currently works for: 
 * Google Chrome
 * Microsoft Edge
-* Mozilla Firefox
-* Vivaldi
-* Opera
 * Brave
+* Edge - Beta
+* Edge - Dev
+* Edge - Canary
+
 
 ## Disclaimer: 
 > All risk is yours and any damages regarding any account ban will be your responsibility.
