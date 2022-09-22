@@ -7,15 +7,15 @@ from random_word import RandomWords
 
 x = RandomWords()
 
-randomWords1 = x.get_random_words()
+randomWords1 = x.get_random_word()
 time.sleep(random.uniform(0.2, 0.5))
-randomWords2 = x.get_random_words()
+randomWords2 = x.get_random_word()
 
 time.sleep(1)
 
-randomWords3 = x.get_random_words()
+randomWords3 = x.get_random_word()
 time.sleep(random.uniform(0.2, 0.5))
-randomWords4 = x.get_random_words()	
+randomWords4 = x.get_random_word()	
 
 combinedWords1 = randomWords1 + randomWords2 
 combinedWords2 = randomWords3 + randomWords4
