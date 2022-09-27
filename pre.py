@@ -1,4 +1,4 @@
-print("Please wait a few seconds... \nPopulating the lists...\n")
+print("Please wait a few seconds... \nPopulating the random word list...\n")
 
 import webbrowser
 import time
@@ -11,6 +11,7 @@ for i in range(1,150):
 	randomWords.append(obj.get_random_word())
 
 print("\nEnjoy your PRE tokens :)\n")
+time.sleep(1)
 
 resultantList = []
 for i in randomWords:
